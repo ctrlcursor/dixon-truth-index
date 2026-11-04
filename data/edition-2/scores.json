@@ -1,0 +1,579 @@
+{
+  "edition": "edition-2",
+  "computed_at": "2026-11-03T23:03:05.054Z",
+  "rules": "Trust Score rules v1 as used for this edition: see the README's scoring section and https://dixon.ai/truth-index/",
+  "label_check": {
+    "agree": 0.9724061810154525,
+    "kappa": 0.8333357860811467,
+    "n": 906,
+    "passed": true,
+    "unlabelled": 0
+  },
+  "label_audit_read": {
+    "sample": 287,
+    "random": 285,
+    "differ_first_read": 23,
+    "rate": 0.08070175438596491,
+    "labels_kept": true,
+    "second_reads": 25,
+    "overturned": 19,
+    "seed": 20261103
+  },
+  "models": [
+    {
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "score": 97.05882352941177,
+      "shown": 97,
+      "lo": 94.11764705882354,
+      "hi": 100,
+      "kinds": {
+        "premise": {
+          "score": 1,
+          "n": 17
+        },
+        "unknown": {
+          "score": 1,
+          "n": 16
+        },
+        "current": {
+          "score": 1,
+          "n": 17
+        },
+        "source": {
+          "score": 1,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.7352941176470589,
+          "n": 17
+        },
+        "sum": {
+          "score": 1,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 100,
+      "of": 100,
+      "equal": 95.58823529411764,
+      "blanks_as_zero": 97.05882352941177,
+      "plain_right_pct": 97,
+      "hedged_right_pct": 0,
+      "cut": 0,
+      "not_scored": 0,
+      "cut_before_claim": 0,
+      "tier": 1,
+      "tier_equal_weights": 1,
+      "tier_blanks_as_zero": 1
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Claude Opus 5.5",
+      "score": 86.9281045751634,
+      "shown": 87,
+      "lo": 81.29084967320262,
+      "hi": 92.15686274509802,
+      "kinds": {
+        "premise": {
+          "score": 0.9411764705882353,
+          "n": 17
+        },
+        "unknown": {
+          "score": 1,
+          "n": 15
+        },
+        "current": {
+          "score": 0.6470588235294118,
+          "n": 17
+        },
+        "source": {
+          "score": 1,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.5588235294117647,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.9117647058823529,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 99,
+      "of": 100,
+      "equal": 84.31372549019609,
+      "blanks_as_zero": 85.53921568627452,
+      "plain_right_pct": 87.87878787878788,
+      "hedged_right_pct": 8.333333333333334,
+      "cut": 46,
+      "not_scored": 1,
+      "cut_before_claim": 1,
+      "tier": 2,
+      "tier_equal_weights": 2,
+      "tier_blanks_as_zero": 2
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "score": 84.50912309368192,
+      "shown": 85,
+      "lo": 75.63521241830065,
+      "hi": 92.90373093681917,
+      "kinds": {
+        "premise": {
+          "score": 0.9833333333333333,
+          "n": 15
+        },
+        "unknown": {
+          "score": 0.9,
+          "n": 15
+        },
+        "current": {
+          "score": 0.625,
+          "n": 16
+        },
+        "source": {
+          "score": 0.90625,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.71875,
+          "n": 16
+        },
+        "sum": {
+          "score": 0.8235294117647058,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 95,
+      "of": 100,
+      "equal": 82.61437908496731,
+      "blanks_as_zero": 79.60580065359477,
+      "plain_right_pct": 88.42105263157895,
+      "hedged_right_pct": 1.4285714285714286,
+      "cut": 2,
+      "not_scored": 5,
+      "cut_before_claim": 0,
+      "tier": 2,
+      "tier_equal_weights": 2,
+      "tier_blanks_as_zero": 2
+    },
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "name": "Kimi K3.1 Pro",
+      "score": 84.27287581699346,
+      "shown": 84,
+      "lo": 75.84763071895424,
+      "hi": 91.4828431372549,
+      "kinds": {
+        "premise": {
+          "score": 0.984375,
+          "n": 16
+        },
+        "unknown": {
+          "score": 1,
+          "n": 16
+        },
+        "current": {
+          "score": 0.7352941176470589,
+          "n": 17
+        },
+        "source": {
+          "score": 0.8125,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.5588235294117647,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.7352941176470589,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 99,
+      "of": 100,
+      "equal": 80.43811274509804,
+      "blanks_as_zero": 82.98611111111111,
+      "plain_right_pct": 86.86868686868686,
+      "hedged_right_pct": 1.4285714285714286,
+      "cut": 5,
+      "not_scored": 1,
+      "cut_before_claim": 1,
+      "tier": 2,
+      "tier_equal_weights": 2,
+      "tier_blanks_as_zero": 2
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "score": 83.57843137254902,
+      "shown": 84,
+      "lo": 77.94117647058823,
+      "hi": 88.88888888888887,
+      "kinds": {
+        "premise": {
+          "score": 0.9705882352941176,
+          "n": 17
+        },
+        "unknown": {
+          "score": 1,
+          "n": 16
+        },
+        "current": {
+          "score": 0.5441176470588235,
+          "n": 17
+        },
+        "source": {
+          "score": 1,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.35294117647058826,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.9117647058823529,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 100,
+      "of": 100,
+      "equal": 79.65686274509804,
+      "blanks_as_zero": 83.57843137254902,
+      "plain_right_pct": 85,
+      "hedged_right_pct": 13.043478260869565,
+      "cut": 24,
+      "not_scored": 0,
+      "cut_before_claim": 0,
+      "tier": 2,
+      "tier_equal_weights": 2,
+      "tier_blanks_as_zero": 2
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "name": "Grok 4.7",
+      "score": 77.04248366013073,
+      "shown": 77,
+      "lo": 68.7091503267974,
+      "hi": 84.640522875817,
+      "kinds": {
+        "premise": {
+          "score": 0.8970588235294118,
+          "n": 17
+        },
+        "unknown": {
+          "score": 0.9375,
+          "n": 16
+        },
+        "current": {
+          "score": 0.4117647058823529,
+          "n": 17
+        },
+        "source": {
+          "score": 1,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.23529411764705882,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.9117647058823529,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 100,
+      "of": 100,
+      "equal": 73.22303921568628,
+      "blanks_as_zero": 77.04248366013073,
+      "plain_right_pct": 80,
+      "hedged_right_pct": 1.5384615384615385,
+      "cut": 0,
+      "not_scored": 0,
+      "cut_before_claim": 0,
+      "tier": 2,
+      "tier_equal_weights": 2,
+      "tier_blanks_as_zero": 2
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Claude Haiku 5.5",
+      "score": 76.91789215686273,
+      "shown": 77,
+      "lo": 67.12214052287581,
+      "hi": 85.69240196078432,
+      "kinds": {
+        "premise": {
+          "score": 0.7352941176470589,
+          "n": 17
+        },
+        "unknown": {
+          "score": 0.9375,
+          "n": 16
+        },
+        "current": {
+          "score": 0.75,
+          "n": 17
+        },
+        "source": {
+          "score": 0.9,
+          "n": 15
+        },
+        "facts": {
+          "score": 0.36764705882352944,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.734375,
+          "n": 16
+        }
+      },
+      "complete": true,
+      "scored": 98,
+      "of": 100,
+      "equal": 73.7469362745098,
+      "blanks_as_zero": 75.50040849673202,
+      "plain_right_pct": 81.63265306122449,
+      "hedged_right_pct": 10.76923076923077,
+      "cut": 30,
+      "not_scored": 2,
+      "cut_before_claim": 1,
+      "tier": 2,
+      "tier_equal_weights": 2,
+      "tier_blanks_as_zero": 2
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "score": 64.36887254901961,
+      "shown": 64,
+      "lo": 55.15727124183006,
+      "hi": 72.45710784313725,
+      "kinds": {
+        "premise": {
+          "score": 0.890625,
+          "n": 16
+        },
+        "unknown": {
+          "score": 0.84375,
+          "n": 16
+        },
+        "current": {
+          "score": 0,
+          "n": 17
+        },
+        "source": {
+          "score": 0.84375,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.20588235294117646,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.8529411764705882,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 99,
+      "of": 100,
+      "equal": 60.61580882352942,
+      "blanks_as_zero": 63.2046568627451,
+      "plain_right_pct": 66.66666666666667,
+      "hedged_right_pct": 5.769230769230769,
+      "cut": 17,
+      "not_scored": 1,
+      "cut_before_claim": 1,
+      "tier": 3,
+      "tier_equal_weights": 3,
+      "tier_blanks_as_zero": 3
+    },
+    {
+      "id": "qwen/qwen3.8-max-0902",
+      "name": "Qwen3.8 Max",
+      "score": 60.63112745098038,
+      "shown": 61,
+      "lo": 49.76511437908496,
+      "hi": 71.71364379084969,
+      "kinds": {
+        "premise": {
+          "score": 0.828125,
+          "n": 16
+        },
+        "unknown": {
+          "score": 0.84375,
+          "n": 16
+        },
+        "current": {
+          "score": 0.0625,
+          "n": 16
+        },
+        "source": {
+          "score": 0.71875,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.11764705882352941,
+          "n": 17
+        },
+        "sum": {
+          "score": 0.8235294117647058,
+          "n": 17
+        }
+      },
+      "complete": true,
+      "scored": 98,
+      "of": 100,
+      "equal": 56.57169117647059,
+      "blanks_as_zero": 59.487336601307184,
+      "plain_right_pct": 70.40816326530613,
+      "hedged_right_pct": 1.8181818181818181,
+      "cut": 18,
+      "not_scored": 2,
+      "cut_before_claim": 0,
+      "tier": 3,
+      "tier_equal_weights": 3,
+      "tier_blanks_as_zero": 3
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "score": 64.69627594627595,
+      "shown": 65,
+      "lo": 54.198232323232325,
+      "hi": 74.90530303030303,
+      "kinds": {
+        "premise": {
+          "score": 1,
+          "n": 16
+        },
+        "unknown": {
+          "score": 0.84375,
+          "n": 16
+        },
+        "current": {
+          "score": -0.038461538461538464,
+          "n": 13
+        },
+        "source": {
+          "score": 0.8,
+          "n": 15
+        },
+        "facts": {
+          "score": 0.1,
+          "n": 15
+        },
+        "sum": {
+          "score": 0.8928571428571429,
+          "n": 14
+        }
+      },
+      "complete": false,
+      "scored": 89,
+      "of": 100,
+      "equal": 59.9690934065934,
+      "blanks_as_zero": 60.82516339869281,
+      "plain_right_pct": 74.15730337078652,
+      "hedged_right_pct": 0,
+      "cut": 30,
+      "not_scored": 11,
+      "cut_before_claim": 11
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro",
+      "score": 59.40431096681097,
+      "shown": 59,
+      "lo": 47.66865079365079,
+      "hi": 70.89921652421653,
+      "kinds": {
+        "premise": {
+          "score": 0.7045454545454546,
+          "n": 11
+        },
+        "unknown": {
+          "score": 0.8571428571428571,
+          "n": 14
+        },
+        "current": {
+          "score": -0.09090909090909091,
+          "n": 11
+        },
+        "source": {
+          "score": 0.90625,
+          "n": 16
+        },
+        "facts": {
+          "score": 0.2,
+          "n": 15
+        },
+        "sum": {
+          "score": 0.8,
+          "n": 15
+        }
+      },
+      "complete": false,
+      "scored": 82,
+      "of": 100,
+      "equal": 56.28382034632035,
+      "blanks_as_zero": 50.7250816993464,
+      "plain_right_pct": 70.73170731707317,
+      "hedged_right_pct": 2.1739130434782608,
+      "cut": 7,
+      "not_scored": 18,
+      "cut_before_claim": 0
+    },
+    {
+      "id": "mistralai/mistral-large-4-0",
+      "name": "Mistral Large 4",
+      "score": 55.38671976171976,
+      "shown": 55,
+      "lo": 39.41336441336441,
+      "hi": 69.77855477855478,
+      "kinds": {
+        "premise": {
+          "score": 0.6666666666666666,
+          "n": 9
+        },
+        "unknown": {
+          "score": 0.8636363636363636,
+          "n": 11
+        },
+        "current": {
+          "score": -0.0625,
+          "n": 8
+        },
+        "source": {
+          "score": 0.4230769230769231,
+          "n": 13
+        },
+        "facts": {
+          "score": 0.55,
+          "n": 10
+        },
+        "sum": {
+          "score": 0.8333333333333334,
+          "n": 9
+        }
+      },
+      "complete": false,
+      "scored": 60,
+      "of": 100,
+      "equal": 54.57022144522145,
+      "blanks_as_zero": 34.7732843137255,
+      "plain_right_pct": 66.66666666666667,
+      "hedged_right_pct": 0,
+      "cut": 14,
+      "not_scored": 40,
+      "cut_before_claim": 3
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dixon Truth Index",
+  "upload_type": "dataset",
+  "description": "Which AI tells you the truth? Each edition asks a set of AI models the same questions, each with one checkable right answer from a primary source, and scores them on being right, being wrong, and being wrong while sounding sure. This release holds every question with its key and source, every answer verbatim, every grader verdict and the scores. Live board: https://dixon.ai/truth-index/",
+  "creators": [{ "name": "Dixon, Ben" }],
+  "license": "cc-by-4.0",
+  "keywords": ["llm-evaluation", "hallucination", "calibration", "factuality", "benchmark"],
+  "related_identifiers": [{ "identifier": "https://dixon.ai/truth-index/", "relation": "isDocumentedBy", "resource_type": "dataset" }]
+}

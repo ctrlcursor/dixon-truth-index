@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Dixon Truth Index"
+type: dataset
+authors:
+  - family-names: Dixon
+    given-names: Ben
+url: "https://dixon.ai/truth-index/"
+repository-code: "https://github.com/ctrlcursor/dixon-truth-index"
+license: CC-BY-4.0
+version: "edition-2"
+date-released: "2026-11-04"
+keywords:
+  - llm-evaluation
+  - hallucination
+  - calibration
+  - factuality
+abstract: "Twelve AI models asked 100 questions with one checkable right answer each, scored on being right, being wrong, and being wrong while sounding sure. Every question, key, source, answer and grader verdict."
