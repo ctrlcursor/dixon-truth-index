@@ -36,13 +36,13 @@ The live board is at **[dixon.ai/truth-index](https://dixon.ai/truth-index/)**. 
 |---|---|---|---|
 | 1 | GPT-6.1 Sol | 97 | 94 to 100 |
 | 2 | Claude Opus 5.5 | 87 | 81 to 92 |
-| 2 | GPT-6 Luna | 85 | 75 to 92 |
-| 2 | Kimi K3.1 Pro | 84 | 75 to 91 |
-| 2 | Claude Sonnet 5.5 | 84 | 77 to 88 |
-| 2 | Grok 4.7 | 77 | 68 to 84 |
-| 2 | Claude Haiku 5.5 | 77 | 67 to 85 |
+| 2 | GPT-6 Luna | 85 | 76 to 93 |
+| 2 | Kimi K3.1 Pro | 84 | 76 to 91 |
+| 2 | Claude Sonnet 5.5 | 84 | 78 to 89 |
+| 2 | Grok 4.7 | 77 | 69 to 85 |
+| 2 | Claude Haiku 5.5 | 77 | 67 to 86 |
 | 3 | Gemini 4 Argon | 64 | 55 to 72 |
-| 3 | Qwen3.8 Max | 61 | 49 to 71 |
+| 3 | Qwen3.8 Max | 61 | 50 to 72 |
 
 Not ranked, because fewer than 90 of their 100 answers could be scored: Gemini 3.8 Flash (89 scored), DeepSeek V4 Pro (82), Mistral Large 4 (60). Most of their gaps are answers that ran out of room at our length limit. That's our limit, not theirs.
 
