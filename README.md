@@ -96,6 +96,14 @@ One answer has a passage replaced with `[withheld]` because it repeats, by chanc
 
 One try per question, through one API route, on one day. A model's own app, with search and memory, may answer differently. 100 questions is a small set, which is why every score has a range. The questions and keys were written with Claude (Anthropic), and three Claude models are scored; the graders are from other labs and blind to the model's name.
 
+## Embed a score card
+
+Every model has a card that updates with each edition. Swap in the model's name, lower case, with dots and spaces as hyphens (for example `gpt-6-1-sol`, `claude-opus-5-5`, `grok-4-7`):
+
+```html
+<a href="https://dixon.ai/truth-index/"><img src="https://dixon.ai/truth-index/card/gpt-6-1-sol.svg" alt="Dixon Trust Score for GPT-6.1 Sol" width="420" height="150"></a>
+```
+
 ## Licence and citation
 
 Data: [CC BY 4.0](LICENSE). Model answers are each model's output, published for research and comparison. If you use this, cite it as in [`CITATION.cff`](CITATION.cff), or link to [dixon.ai/truth-index](https://dixon.ai/truth-index/).
