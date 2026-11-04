@@ -83,6 +83,7 @@ data/edition-2/
   questions.jsonl   one row per question: id, kind, question, key, grade_rule, source (publisher, url, date checked, quote)
   cells.jsonl       one row per model and question: the answer verbatim, finish reason, grade, label, points
   scores.json       each model's score, range, tier and per-kind breakdown
+  source-snapshots.jsonl  an Internet Archive copy of each key's source page, so a key stays checkable after the page changes
   raw/grades.jsonl       every grader verdict, with its reason
   raw/labels.jsonl       every confident or hedged label, with its reason
   raw/claims.jsonl       the cut-answer reads
