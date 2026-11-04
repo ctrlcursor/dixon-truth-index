@@ -24,6 +24,8 @@ configs:
 
 Which AI tells you the truth? Each edition asks a set of AI models the same questions, each with one checkable right answer, and scores them on how often they're right, how often they're wrong, and how often they're wrong while sounding sure.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23955122.svg)](https://doi.org/10.5281/zenodo.23955122)
+
 The live board is at **[dixon.ai/truth-index](https://dixon.ai/truth-index/)**. This repository holds the data behind it: every question with its key and source, every answer word for word, every grader's verdict, and the scores.
 
 ## Edition 2 (November 2026)
@@ -108,3 +110,5 @@ Every model has a card that updates with each edition. Swap in the model's name,
 ## Licence and citation
 
 Data: [CC BY 4.0](LICENSE). Model answers are each model's output, published for research and comparison. If you use this, cite it as in [`CITATION.cff`](CITATION.cff), or link to [dixon.ai/truth-index](https://dixon.ai/truth-index/).
+
+DOIs on Zenodo: edition 2 is [10.5281/zenodo.23955123](https://doi.org/10.5281/zenodo.23955123); [10.5281/zenodo.23955122](https://doi.org/10.5281/zenodo.23955122) always points at the newest edition.

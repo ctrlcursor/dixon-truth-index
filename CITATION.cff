@@ -8,6 +8,14 @@ authors:
 url: "https://dixon.ai/truth-index/"
 repository-code: "https://github.com/ctrlcursor/dixon-truth-index"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.23955122"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23955123"
+    description: "Edition 2 (November 2026)"
+  - type: doi
+    value: "10.5281/zenodo.23955122"
+    description: "All editions"
 version: "edition-2"
 date-released: "2026-11-04"
 keywords:
